@@ -1,5 +1,28 @@
 body {
     font-family: "Ubuntu Mono", monospace;
     font-weight: 400;
-    font-style: normal;
+    background-color: linear-gradient(red, yellow);
+    color: black;
+    transition: 0.5s;
+    transform-style: flat;
+}
+.dark{
+    background-color: #262626;
+    color: rgb(255, 255, 255);
+}
+#theme{
+    border-color: black;
+    padding: 1%;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    background-color: (#384e7d);
+    border-radius: 14px;
+    box-shadow: 0 4px 12px;
+    transition: 0.5;
+    margin-left: auto;
+}
+.header-home{
+    display: flex;
+
 }
