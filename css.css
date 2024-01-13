@@ -1,7 +1,7 @@
 body {
     font-family: "Ubuntu Mono", monospace;
     font-weight: 400;
-    background-color: linear-gradient(red, yellow);
+    background-color: white;
     color: black;
     transition: 0.5s;
     transform-style: flat;
@@ -24,5 +24,10 @@ body {
 }
 .header-home{
     display: flex;
-
+    background-color: rgb(50, 50, 50);
+    color: white;
+    margin: -8px -8px -8px -8px;
+}
+#title{
+    margin: 5px;
 }
