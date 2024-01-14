@@ -10,24 +10,66 @@ body {
     background-color: #262626;
     color: rgb(255, 255, 255);
 }
-#theme{
-    border-color: black;
+#theme .dark{
+    border-color: white;
     padding: 1%;
     font-family: "Ubuntu Mono", monospace;
     font-size: medium;
-    color: rgb(0, 0, 0);
-    background-color: (#384e7d);
+    color: rgb(255, 255, 255);
+    background-color: (#262626);
     border-radius: 14px;
     box-shadow: 0 4px 12px;
     transition: 0.5;
     margin-left: auto;
+    cursor: pointer;
+    border: 10px;
 }
-.header-home{
+#theme{
+    border-color: black;
+    padding: 2%;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    background-color: (#fff);
+    border-radius: 14px;
+    box-shadow: 0 4px 12px;
+    transition: 0.5;
+    margin-left: auto;
+    cursor: pointer;
+    border: 10px;
+    margin: 8px 8px 8px auto;
+}
+header{
     display: flex;
     background-color: rgb(50, 50, 50);
     color: white;
     margin: -8px -8px -8px -8px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 #title{
-    margin: 5px;
+    margin: 10px;
+}
+.button1{
+    display: flex;
+    border-color: black;
+    padding: 2%;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    background-color: (#fff);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px;
+    transition: 0.5;
+    cursor: pointer;
+    border: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    color: blue;
 }
